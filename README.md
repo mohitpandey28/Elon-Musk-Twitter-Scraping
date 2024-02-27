@@ -1,4 +1,4 @@
-*Project Title:*
+# Project Title:
 Twitter Tweet Scraper for Elon Musk's Tweets
 
 Description:
@@ -18,7 +18,7 @@ Data Processing: The scraped tweet data is structured into a Pandas DataFrame, e
 
 
 
-**code**
+## code
 
 import selenium
 from selenium import webdriver
@@ -32,10 +32,10 @@ from selenium.webdriver.support import expected_conditions as EC
 
 PATH = "/Users/apple/Downloads/chromedriver-mac-x64"
 
-# Create ChromeOptions object
+Create ChromeOptions object*
 chrome_options = Options()
 
-# Set the executable path through binary_location
+#### Set the executable path through binary_location 
 chrome_options.binary_location = PATH
 
 # Set any additional options if needed
