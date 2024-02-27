@@ -70,7 +70,7 @@ password_locator = (By.XPATH,"//input[@name='password']")
 
 password = WebDriverWait(driver, 10).until(EC.presence_of_element_located(password_locator))
 
-password.send_keys('Immohit96@')
+password.send_keys('')
 
 log_in = driver.find_element(By.XPATH,"//span[contains(text(),'Log in')]")
 
