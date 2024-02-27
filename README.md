@@ -42,10 +42,10 @@ PATH = "/Users/apple/Downloads/chromedriver-mac-x64"
 ### Create ChromeOptions object
 chrome_options = Options()
 
-## Set the executable path through binary_location 
+### Set the executable path through binary_location 
 chrome_options.binary_location = PATH
 
-# Create WebDriver instance with ChromeOptions
+### Create WebDriver instance with ChromeOptions
 driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://twitter.com/login")
 
